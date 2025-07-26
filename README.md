@@ -10,24 +10,24 @@ This project aims to predict student performance using machine learning techniqu
 
 The project is structured as follows:
 
-- `.ebextensions/`: Contains configuration files for Elastic Beanstalk deployment.
-- `.gitignore`: Specifies intentionally untracked files that Git should ignore.
-- `application.py`: The main Flask application file.
-- `artifacts/`: Directory for storing artifacts such as model files.
-- `catboost_info/`: Directory for CatBoost model information.
-- `notebook/`: Contains Jupyter notebooks for experimentation and analysis.
-- `requirements.txt`: Lists the Python dependencies required to run the application.
-- `setup.py`: Installation script for the project.
-- `src/`: Source code directory containing various modules and components.
-- `templates/`: Directory for HTML templates used by the Flask application.
+-   `.ebextensions/`: Contains configuration files for Elastic Beanstalk deployment.
+-   `.gitignore`: Specifies intentionally untracked files that Git should ignore.
+-   `application.py`: The main Flask application file.
+-   `artifacts/`: Directory for storing artifacts such as model files.
+-   `catboost_info/`: Directory for CatBoost model information.
+-   `notebook/`: Contains Jupyter notebooks for experimentation and analysis.
+-   `requirements.txt`: Lists the Python dependencies required to run the application.
+-   `setup.py`: Installation script for the project.
+-   `src/`: Source code directory containing various modules and components.
+-   `templates/`: Directory for HTML templates used by the Flask application.
 
 ### Source Code Structure (`src/`)
 
-- `src/components/`: Contains reusable components.
-- `src/exception.py`: Defines custom exception handling.
-- `src/logger.py`: Configures logging for the application.
-- `src/pipeline/`: Implements the data processing and model training pipeline.
-- `src/utils.py`: Provides utility functions.
+-   `src/components/`: Contains reusable components.
+-   `src/exception.py`: Defines custom exception handling.
+-   `src/logger.py`: Configures logging for the application.
+-   `src/pipeline/`: Implements the data processing and model training pipeline.
+-   `src/utils.py`: Provides utility functions.
 
 ## Installation
 
@@ -43,7 +43,7 @@ The project is structured as follows:
     ```bash
     python -m venv venv
     source venv/bin/activate  # On Linux/macOS
-    venv\Scripts\activate  # On Windows
+    venv\Scripts\activate   # On Windows
     ```
 
 3.  **Install the dependencies:**
@@ -85,7 +85,7 @@ Contributions are welcome! Please follow these steps:
 
 ## License
 
-This project does not have a specified license. Please add a license file to clarify the terms of use.
+This project uses the Creative Commons Legal Code. See the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
